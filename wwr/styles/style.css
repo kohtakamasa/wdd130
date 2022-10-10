@@ -286,6 +286,7 @@ background-image: linear-gradient(#0F2F5A, #135CA0);
 color: white;
 border-bottom: 5px double #0F2F5A;
 }
+
 .rivers-headline{
 font-family: "bebas neue", Arial, Helvetica, sans-serif;
 letter-spacing: 1px;
@@ -401,12 +402,6 @@ nav a {
     border: none;
     box-shadow: none;
 
-}
-
-.rivers-headline {
-    font-size: 2em;
-    word-spacing: 5px;
-    color: black;
 }
 footer {
     margin-top: 25px;
