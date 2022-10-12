@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>About Me</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="portfolio logo">
+            </a>    
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="works.html">Works</a>
+            </nav>
+        </header>
+
+        <main class="aboutme-grid">
+            <h2>Hello again!☺</h2>
+            <div>
+                <img id="aboutme-banner-img" src="images/aboutme_banner.jpg" alt="about me banner picture">
+            </div>
+
+            <div id="aboutme-description">
+                <p>Let me reintroduce myself.</p>
+                <p>
+                    My name is Koh Takamasa. I'm currently a first year student at BYU-I majoring in Applied Technology. 
+                    While working in the restaurant industry, I always felt like something was missing. And in high school, I felt lost in what major and career to
+                    pursue. One thing was that I have always liked computers and have been mesmerized by responsive websites with amazing visual designs. So, after 
+                    much time going back and forth between computer science, mechanical engineering, accounting, education, and psychology (I know, I wanted to do 
+                    everything. Sorry for having a curious mind😅) Ultimately, I chose to learn how to code starting with  resources like freeCodeCamp and 
+                    Codecademy, and now I'm loving learning about it!
+                </p>
+            </div>
+            <div>
+                <h3>During my free time</h3>
+                <section class="guitar">
+                    <img class="card-img" src="images/guitar.jpg" alt="me and my guitar">
+                    <p>jamming out and playing guitar</p>
+                </section>
+                <section class="wife">
+                    <img class="card-img" src="images/JK.jpg" alt="My wife and I">
+                    <p>hanging out with my beautiful wife</p>
+                </section>
+                <section class="explore">
+                    <img class="card-img" src="images/explore.jpg" alt="me exploring outside">
+                    <p>going out and exploring</p>
+                </section>
+            </div>
+
+            <div class="form">
+                <h3>Let's Connect</h3>
+                <p>Feel free to reach out to talk☺</p>
+                <div id="feedback"></div>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+        </main>
+
+        <footer>
+            <h3>&copy;2022 - Koh Takamasa</h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+
+            <div class="social">
+                <a href="mailto:kohtakamsa@gmail.com" target="_blank">
+                    <img src="images/mail.png" alt="mail icon">
+                </a>
+                <a href="https://github.com/kohtakamasa" target="_blank">
+                    <img src="images/github.png" alt="github icon">
+                </a>
+                <a href="https://www.linkedin.com/in/ktakamasa/" target="_blank">
+                    <img src="images/linkedin.png" alt="linkedin icon">
+                </a>
+            </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
