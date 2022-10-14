@@ -106,7 +106,7 @@ nav a:hover {
     grid-column: 5/9;
     text-align: center;
     margin: 1em auto;
-    padding: 1em auto;
+    padding: 1em;
     justify-self: center;
     align-self: center;
     font-size: 1.1em;
