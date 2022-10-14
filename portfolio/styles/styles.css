@@ -5,6 +5,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    background-color: rgba(220, 211, 201, 50%);
 }
 
 
@@ -94,12 +95,18 @@ nav a:hover {
 #home-img {
     grid-column: 2/5;
     margin: 1em auto ;
+    transition: transform .5s;
 }
 
 #home-img img {
     border-radius: 50%;
     width: 100%;
+    border: 2px solid black;
+    box-shadow: 3px 3px 8px #6f7364;
+}
 
+#home-img:hover {
+    transform: scale(1.02);
 }
 
 #home-description {
@@ -148,3 +155,180 @@ footer .social img {
     justify-self: end;
 }
 
+
+/* about me */
+
+.aboutme-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#hello {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+#aboutme-banner {
+    grid-column: 2/10;
+    grid-row: 2/6;
+    margin-bottom: 50px;
+}
+#aboutme-banner-img{
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: transform .5s;
+    box-shadow: 3px 3px 8px #6f7364;
+    width: 100%;
+}
+#aboutme-banner-img:hover {
+    transform: scale(1.02);
+}
+
+#aboutme-description {
+    grid-column: 2/10;
+    grid-row: 6/8;
+    margin-bottom: 50px;
+    font-size: 1.1em;
+}
+#aboutme-description p {
+    margin: 1em;
+}
+
+.hobbies {
+    grid-column: 2/7;
+    grid-row: 9/12;
+    display: grid;
+
+    margin-bottom: 70px;
+}
+.hobbies img {
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: transform .5s;
+    box-shadow: 3px 3px 8px #6f7364;
+    margin: 0 2em;
+
+}
+
+.hobbies img:hover {
+    transform: scale(1.02);
+}
+
+#freetime-header {
+    grid-column: 5/7;
+    text-align: center;
+}
+.guitar{
+    grid-column: 2/4;
+    text-align: center;
+}
+.wife {
+    grid-column: 5/7;
+    text-align: center;
+}
+
+.explore {
+    grid-column: 8/10;
+    text-align: center;
+}
+
+.hobbies p {
+    font-size: 1.1em;
+}
+
+.form {
+    grid-column: 4/8;
+    grid-row: 12/15;
+    text-align: center;
+
+}
+#form-msg h3,
+#form-msg p{
+    margin: 0;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    /* border: 1px solid #ccc; */
+    border-radius: 1em;
+}   
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 0.5em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+        By default, textareas have a monospace font */
+    font: 1.1em "Open Sans";
+
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /*same size as the label elements
+
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+        between the labels and their text fields */
+    margin-left: 0.5em;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+/* works */
