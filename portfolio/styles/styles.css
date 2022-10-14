@@ -37,6 +37,7 @@ nav a {
     color: black;
     text-decoration: none;
     padding: 35px;
+    font-size: 1.2em;
 }
 
 nav a:hover {
@@ -108,6 +109,7 @@ nav a:hover {
     padding: 1em auto;
     justify-self: center;
     align-self: center;
+    font-size: 1.1em;
 }
 
 
