@@ -332,3 +332,68 @@ button {
 
 
 /* works */
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+
+#works-header {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.works-description {
+    grid-column: 4/11;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.current-work {
+    grid-column: 3/12;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#wwr-img {
+    margin-top: 1em;
+}
+.current-work p {
+    font-size: 1.1em;
+}
+
+.past-work {
+    grid-column: 3/12;
+    text-align: center;
+
+}
+
+.past-work p {
+    font-size: 1.1em;
+}
+
+#projects {
+    margin-top: 2em;
+}
+
+
+#snake-img,
+#calculator-img {
+    margin: 0 3em;
+    border-radius: 10px;
+}
+
+#wwr-img,
+#snake-img,
+#calculator-img {
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: transform .5s;
+    box-shadow: 3px 3px 8px #6f7364;
+}
+
+
+#wwr-img:hover,
+#snake-img:hover,
+#calculator-img:hover {
+    transform: scale(1.02);  
+}
