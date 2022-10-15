@@ -240,12 +240,15 @@ footer .social img {
 .form {
     grid-column: 4/8;
     grid-row: 12/15;
-    text-align: center;
-
 }
+.form-items {
+    justify-self: center;
+}
+
 #form-msg h3,
 #form-msg p{
     margin: 0;
+    text-align: center;
 }
 
 form {
@@ -306,8 +309,8 @@ textarea {
 
 .button {
     /* Align buttons with the text fields */
-    padding-left: 90px; /*same size as the label elements
-
+    padding-left: 330px; /*same size as the label elements */
+    justify-content: right;
 }
 
 button {
@@ -448,5 +451,30 @@ button {
     footer {
         margin-top: 25px;
     }
+
+    .aboutme-grid {
+        display: block;
+    }
+    #aboutme-banner {
+        margin: 0 2em;
+    }
+    #aboutme-description {
+        margin: 0 2em;
+        text-align: center;
+        font-size: 1em;
+    }
+    .hobbies {
+        display: block;
+    }
+    .guitar p,
+    .wife p,
+    .explore p {
+        margin-top: 5px;
+        margin-bottom: 2em;
+    }
+
+    form {
+        justify-content: center;
+    }
+
 }
-    
