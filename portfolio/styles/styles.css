@@ -473,8 +473,21 @@ button {
         margin-bottom: 2em;
     }
 
-    form {
-        justify-content: center;
+    .works-grid {
+        display: block;
+        margin: 0 1em;
+    }  
+    .works-description{
+        margin-bottom: 3em;
+    }
+    #wwr-img{
+        width: 90%;
+    }
+    #snake-img,
+    #calculator-img {
+        margin: 0.5em auto;
+        width: 50%;
     }
 
+    
 }
