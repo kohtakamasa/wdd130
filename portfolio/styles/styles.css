@@ -22,11 +22,11 @@ header {
     margin: 0 5px;
 
 }
-/* #logo_link {
+#logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-} */
+}
 
 nav{
     display: flex;
@@ -397,3 +397,56 @@ button {
 #calculator-img:hover {
     transform: scale(1.02);  
 }
+
+@media screen and (max-width: 900px) {
+    header {
+        align-items: center;
+    }
+    #banner {
+        margin: 25px auto;
+        align-items: center;
+    } 
+    #banner-msg {
+        grid-column: 1/-1;
+    }
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #banner {
+        margin-top: 0;
+    }
+    #banner-msg {
+        margin-top: 0;
+    }
+    #banner-msg h1 {
+        font-size: 4em;
+    }
+    #banner-msg h2 {
+        font-size: 3em;
+    }
+    #banner-msg h3 {
+        font-size: 1em;
+    }
+    #home-img { 
+        margin: 50px auto 0;
+        width: 40%;
+    }
+    #home-description {
+        margin-top: 0;
+        padding: 1em 2em;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+    
