@@ -196,10 +196,10 @@ footer .social img {
 }
 
 .hobbies {
-    grid-column: 2/7;
+    grid-column: 1/-1;
     grid-row: 9/12;
     display: grid;
-
+    grid-template-columns: repeat(10, 1fr);
     margin-bottom: 70px;
 }
 .hobbies img {
@@ -218,6 +218,7 @@ footer .social img {
 #freetime-header {
     grid-column: 5/7;
     text-align: center;
+
 }
 .guitar{
     grid-column: 2/4;
